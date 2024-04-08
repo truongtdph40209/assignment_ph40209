@@ -5,15 +5,6 @@ import { deleteYeuthApi, fetchYeuthic } from '../redux/actions/yeuthichAction';
 
 const SanPhamYeuThic = () => {
 
-    const API = `http://192.168.1.4:3000/sanphamyeuthich`
-    const [data, setdata] = useState([]);
-    // useEffect(() => {
-        
-    //     fetch(API).then(res => res.json()).then(data => {
-    //         setdata(data)
-    //     }).catch()
-    // }, [data]);
-
     const listYeuthich = useSelector(state => state.listYeuthich.listYeuthich);
     const dispatch = useDispatch();
 
