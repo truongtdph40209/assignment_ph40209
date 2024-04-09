@@ -333,11 +333,18 @@
   ],
   "sanphamyeuthich": [
     {
-      "id": "5f40",
-      "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2024/1/11/638405567889290705_honor-x9b-dd-dq-1.jpg",
-      "tensp": "Honor 5G 12GB-256GB",
-      "gia": 8990000,
-      "giacu": 9990000
+      "id": "c782",
+      "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2024/1/25/638417729562660990_xiaomi-poco-m6-pro-dd-docquyen-bh.jpg",
+      "tensp": "Xiaomi 8GB-256GB",
+      "gia": 5990000,
+      "giacu": 6490000
+    },
+    {
+      "id": "0ef8",
+      "img": "https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/3/31/638158962810512367_ss-galaxy-s22-dd-icon.jpg",
+      "tensp": "Samsung S22 5G 128GB",
+      "gia": 13990000,
+      "giacu": 1599000
     }
   ],
   "user": [

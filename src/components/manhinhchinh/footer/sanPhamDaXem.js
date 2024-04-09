@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { View, StyleSheet, Image, Text, TouchableOpacity, FlatList } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import BASE_URL from '../../../../env/port';
 
-const api = 'http://192.168.43.174:3000/sanphamdaxem'
+const api = `${BASE_URL}sanphamdaxem`
 
 const SanPhamDaXem = () => {
 

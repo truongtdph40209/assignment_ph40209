@@ -1,8 +1,9 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { addYeuth } from "../reducers/yeuthichReducer";
+import BASE_URL from "../../../../env/port";
 
 
-const api_url = 'http://192.168.43.174:3000/sanphamyeuthich';
+const api_url = `${BASE_URL}sanphamyeuthich`;
 
 export const fetchYeuthic = () => {
     return async  dispatch => {

@@ -1,8 +1,9 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { addUser } from "../reducers/userReducer";
+import BASE_URL from "../../../../env/port";
 
 
-const api_url = 'http://192.168.43.174:3000/user';
+const api_url = `${BASE_URL}user`;
 
 export const fetchUser = () => {
     return async  dispatch => {
